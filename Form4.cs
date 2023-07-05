@@ -16,5 +16,10 @@ namespace TugasAkhir_C4
         {
             InitializeComponent();
         }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
