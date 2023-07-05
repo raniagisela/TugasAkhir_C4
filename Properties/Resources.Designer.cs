@@ -63,6 +63,16 @@ namespace TugasAkhir_C4.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _3225084 {
+            get {
+                object obj = ResourceManager.GetObject("3225084", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap free_store_icon_2017_thumb {
             get {
                 object obj = ResourceManager.GetObject("free-store-icon-2017-thumb", resourceCulture);

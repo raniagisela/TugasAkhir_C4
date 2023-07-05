@@ -110,5 +110,8 @@
   <ItemGroup>
     <None Include="Resources\free-store-icon-2017-thumb.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3225084.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
