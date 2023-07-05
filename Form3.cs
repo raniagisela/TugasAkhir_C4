@@ -16,5 +16,10 @@ namespace TugasAkhir_C4
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
