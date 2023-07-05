@@ -54,7 +54,7 @@ namespace TugasAkhir_C4
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Modern No. 20", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(298, 34);
+            this.label1.Location = new System.Drawing.Point(298, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(90, 25);
             this.label1.TabIndex = 0;
@@ -65,7 +65,7 @@ namespace TugasAkhir_C4
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.MistyRose;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(108, 80);
+            this.dataGridView1.Location = new System.Drawing.Point(108, 69);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -76,7 +76,7 @@ namespace TugasAkhir_C4
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(105, 244);
+            this.label2.Location = new System.Drawing.Point(105, 233);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(90, 16);
             this.label2.TabIndex = 2;
@@ -86,7 +86,7 @@ namespace TugasAkhir_C4
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(105, 273);
+            this.label3.Location = new System.Drawing.Point(105, 262);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(72, 16);
             this.label3.TabIndex = 3;
@@ -96,7 +96,7 @@ namespace TugasAkhir_C4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(105, 302);
+            this.label4.Location = new System.Drawing.Point(105, 291);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(97, 16);
             this.label4.TabIndex = 4;
@@ -106,7 +106,7 @@ namespace TugasAkhir_C4
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(105, 334);
+            this.label5.Location = new System.Drawing.Point(105, 323);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(63, 16);
             this.label5.TabIndex = 7;
@@ -116,7 +116,7 @@ namespace TugasAkhir_C4
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(105, 363);
+            this.label6.Location = new System.Drawing.Point(105, 352);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(96, 16);
             this.label6.TabIndex = 6;
@@ -124,28 +124,28 @@ namespace TugasAkhir_C4
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(238, 239);
+            this.textBox1.Location = new System.Drawing.Point(238, 228);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(285, 22);
             this.textBox1.TabIndex = 8;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(238, 270);
+            this.textBox2.Location = new System.Drawing.Point(238, 259);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(285, 22);
             this.textBox2.TabIndex = 9;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(238, 363);
+            this.textBox3.Location = new System.Drawing.Point(238, 352);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(285, 22);
             this.textBox3.TabIndex = 10;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(238, 331);
+            this.textBox4.Location = new System.Drawing.Point(238, 320);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(285, 22);
             this.textBox4.TabIndex = 11;
@@ -153,7 +153,7 @@ namespace TugasAkhir_C4
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(238, 299);
+            this.comboBox1.Location = new System.Drawing.Point(238, 288);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(285, 24);
             this.comboBox1.TabIndex = 12;
@@ -161,7 +161,7 @@ namespace TugasAkhir_C4
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Bernard MT Condensed", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(556, 80);
+            this.button1.Location = new System.Drawing.Point(542, 69);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 38);
             this.button1.TabIndex = 13;
@@ -171,7 +171,7 @@ namespace TugasAkhir_C4
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Bernard MT Condensed", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(108, 403);
+            this.button2.Location = new System.Drawing.Point(108, 392);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 35);
             this.button2.TabIndex = 14;
@@ -181,7 +181,7 @@ namespace TugasAkhir_C4
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Bernard MT Condensed", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(284, 403);
+            this.button3.Location = new System.Drawing.Point(284, 392);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 35);
             this.button3.TabIndex = 15;
@@ -191,7 +191,7 @@ namespace TugasAkhir_C4
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Bernard MT Condensed", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(448, 403);
+            this.button4.Location = new System.Drawing.Point(448, 392);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 35);
             this.button4.TabIndex = 16;
@@ -201,9 +201,9 @@ namespace TugasAkhir_C4
             // pictureBox1
             // 
             this.pictureBox1.Image = global::TugasAkhir_C4.Properties.Resources.free_store_icon_2017_thumb;
-            this.pictureBox1.Location = new System.Drawing.Point(529, 259);
+            this.pictureBox1.Location = new System.Drawing.Point(529, 244);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(146, 150);
+            this.pictureBox1.Size = new System.Drawing.Size(249, 254);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;

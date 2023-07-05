@@ -162,7 +162,7 @@ namespace TugasAkhir_C4
             // pictureBox4
             // 
             this.pictureBox4.Image = global::TugasAkhir_C4.Properties.Resources._2399925;
-            this.pictureBox4.Location = new System.Drawing.Point(430, 343);
+            this.pictureBox4.Location = new System.Drawing.Point(452, 343);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(201, 205);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -172,7 +172,7 @@ namespace TugasAkhir_C4
             // pictureBox3
             // 
             this.pictureBox3.Image = global::TugasAkhir_C4.Properties.Resources.department_13;
-            this.pictureBox3.Location = new System.Drawing.Point(163, 343);
+            this.pictureBox3.Location = new System.Drawing.Point(160, 343);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(201, 205);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -192,7 +192,7 @@ namespace TugasAkhir_C4
             // pictureBox1
             // 
             this.pictureBox1.Image = global::TugasAkhir_C4.Properties.Resources._1642256;
-            this.pictureBox1.Location = new System.Drawing.Point(-34, 270);
+            this.pictureBox1.Location = new System.Drawing.Point(-40, 270);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(201, 205);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
