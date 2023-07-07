@@ -35,9 +35,10 @@ namespace TugasAkhir_C4
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(354, 61);
+            this.label1.Font = new System.Drawing.Font("Modern No. 20", 13.8F);
+            this.label1.Location = new System.Drawing.Point(302, 70);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 17);
+            this.label1.Size = new System.Drawing.Size(140, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Mini Market";
             // 
