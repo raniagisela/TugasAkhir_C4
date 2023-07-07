@@ -48,7 +48,7 @@ namespace TugasAkhir_C4
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Halaman Utama";
             this.ResumeLayout(false);
             this.PerformLayout();
 
