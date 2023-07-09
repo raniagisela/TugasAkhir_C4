@@ -200,9 +200,9 @@ namespace TugasAkhir_C4
             // pictureBox1
             // 
             this.pictureBox1.Image = global::TugasAkhir_C4.Properties.Resources._41857185bc308128d2f896c872a6b00a;
-            this.pictureBox1.Location = new System.Drawing.Point(644, 315);
+            this.pictureBox1.Location = new System.Drawing.Point(626, 295);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(130, 114);
+            this.pictureBox1.Size = new System.Drawing.Size(162, 143);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 16;
             this.pictureBox1.TabStop = false;
