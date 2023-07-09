@@ -156,6 +156,7 @@ namespace TugasAkhir_C4
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Bernard MT Condensed", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(545, 85);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 39);
@@ -165,6 +166,7 @@ namespace TugasAkhir_C4
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Bernard MT Condensed", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(545, 242);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 38);
@@ -174,6 +176,7 @@ namespace TugasAkhir_C4
             // 
             // button3
             // 
+            this.button3.Font = new System.Drawing.Font("Bernard MT Condensed", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(545, 306);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 37);
@@ -183,6 +186,7 @@ namespace TugasAkhir_C4
             // 
             // button4
             // 
+            this.button4.Font = new System.Drawing.Font("Bernard MT Condensed", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(545, 372);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 35);
