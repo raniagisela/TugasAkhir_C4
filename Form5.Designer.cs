@@ -63,45 +63,50 @@ namespace TugasAkhir_C4
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(88, 242);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 17);
+            this.label2.Size = new System.Drawing.Size(81, 16);
             this.label2.TabIndex = 2;
             this.label2.Text = "Kode Barang";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(88, 272);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(95, 17);
+            this.label3.Size = new System.Drawing.Size(85, 16);
             this.label3.TabIndex = 3;
             this.label3.Text = "Nama Barang";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(88, 306);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(86, 17);
+            this.label4.Size = new System.Drawing.Size(76, 16);
             this.label4.TabIndex = 4;
             this.label4.Text = "Stok Barang";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(88, 340);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(77, 17);
+            this.label5.Size = new System.Drawing.Size(67, 16);
             this.label5.TabIndex = 5;
             this.label5.Text = "Harga Jual";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(88, 374);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(74, 17);
+            this.label6.Size = new System.Drawing.Size(67, 16);
             this.label6.TabIndex = 6;
             this.label6.Text = "Harga Beli";
             // 
