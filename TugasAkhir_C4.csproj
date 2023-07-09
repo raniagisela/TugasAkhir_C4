@@ -152,5 +152,17 @@
   <ItemGroup>
     <None Include="Resources\41857185bc308128d2f896c872a6b00a.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vector-Dump-Truck-PNG-Free-Download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5483617.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplier-management.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

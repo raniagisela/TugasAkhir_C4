@@ -113,6 +113,16 @@ namespace TugasAkhir_C4.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _5483617 {
+            get {
+                object obj = ResourceManager.GetObject("5483617", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _6070926 {
             get {
                 object obj = ResourceManager.GetObject("6070926", resourceCulture);
@@ -146,6 +156,36 @@ namespace TugasAkhir_C4.Properties {
         internal static System.Drawing.Bitmap free_store_icon_2017_thumb {
             get {
                 object obj = ResourceManager.GetObject("free-store-icon-2017-thumb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OIP {
+            get {
+                object obj = ResourceManager.GetObject("OIP", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap supplier_management {
+            get {
+                object obj = ResourceManager.GetObject("supplier-management", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Vector_Dump_Truck_PNG_Free_Download {
+            get {
+                object obj = ResourceManager.GetObject("Vector-Dump-Truck-PNG-Free-Download", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
