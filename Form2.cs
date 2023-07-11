@@ -93,7 +93,61 @@ namespace TugasAkhir_C4
 
         private void btnClearDepart_Click(object sender, EventArgs e)
         {
+            try
+            {
+                string deleteQuery = "DELETE FROM Departement WHERE nama_departement='" + textboxNameDepart.Text + "'id_departement='" + textboxIdDepart + "'jumlah_pegawai='" + textboxSumDepart + "'alamat_departement='" + textboxAddressDepart + " ";
+                //SqlCommand command = new SqlCommand(deleteQuery, dBCon.GetCon());
+                //dBCon.OpenCon();
+                //command.ExecuteNonQuery();
+                MessageBox.Show("Departement Deleted Successfully!", "Delete Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //dBCon.CloseCon();
+                getTable();
+                clear();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
 
+        private void labelExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void buttonE_Click(object sender, EventArgs e)
+        {
+            Form3 employee = new Form3();
+            employee.Show();
+            this.Hide();
+        }
+
+        private void buttonD_Click(object sender, EventArgs e)
+        {
+            Form2 departement = new Form2();
+            departement.Show();
+            this.Hide();
+        }
+
+        private void buttonC_Click(object sender, EventArgs e)
+        {
+            Form4 cust = new Form4();
+            cust.Show();
+            this.Hide();
+        }
+
+        private void buttonP_Click(object sender, EventArgs e)
+        {
+            Form5 prod = new Form5();
+            prod.Show();
+            this.Hide();
+        }
+
+        private void buttonS_Click(object sender, EventArgs e)
+        {
+            Form6 supp = new Form6();
+            supp.Show();
+            this.Hide();
         }
     }
 }

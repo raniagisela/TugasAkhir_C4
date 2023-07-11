@@ -44,23 +44,22 @@ namespace TugasAkhir_C4
             this.btnClearProd = new System.Windows.Forms.Button();
             this.btnSaveProd = new System.Windows.Forms.Button();
             this.textboxSellprice = new System.Windows.Forms.TextBox();
-            this.labelDepart = new System.Windows.Forms.Label();
             this.textboxNameProd = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btnAddProd = new System.Windows.Forms.Button();
-            this.labelPro = new System.Windows.Forms.Label();
-            this.labelCust = new System.Windows.Forms.Label();
-            this.labelEmploy = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.labelSupp = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.labelExit = new System.Windows.Forms.Label();
+            this.buttonS = new System.Windows.Forms.Button();
+            this.buttonP = new System.Windows.Forms.Button();
+            this.buttonC = new System.Windows.Forms.Button();
+            this.buttonE = new System.Windows.Forms.Button();
+            this.buttonD = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProd)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -150,7 +149,7 @@ namespace TugasAkhir_C4
             this.titleEmploy.ForeColor = System.Drawing.Color.Yellow;
             this.titleEmploy.Location = new System.Drawing.Point(207, 23);
             this.titleEmploy.Name = "titleEmploy";
-            this.titleEmploy.Size = new System.Drawing.Size(195, 39);
+            this.titleEmploy.Size = new System.Drawing.Size(201, 40);
             this.titleEmploy.TabIndex = 16;
             this.titleEmploy.Text = "Manage Product";
             // 
@@ -220,18 +219,6 @@ namespace TugasAkhir_C4
             this.textboxSellprice.Size = new System.Drawing.Size(145, 22);
             this.textboxSellprice.TabIndex = 9;
             // 
-            // labelDepart
-            // 
-            this.labelDepart.AutoSize = true;
-            this.labelDepart.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.labelDepart.Font = new System.Drawing.Font("Sitka Display", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDepart.ForeColor = System.Drawing.Color.Yellow;
-            this.labelDepart.Location = new System.Drawing.Point(15, 145);
-            this.labelDepart.Name = "labelDepart";
-            this.labelDepart.Size = new System.Drawing.Size(105, 24);
-            this.labelDepart.TabIndex = 33;
-            this.labelDepart.Text = "Departement";
-            // 
             // textboxNameProd
             // 
             this.textboxNameProd.Location = new System.Drawing.Point(136, 97);
@@ -263,52 +250,6 @@ namespace TugasAkhir_C4
             this.btnAddProd.Text = "Add";
             this.btnAddProd.UseVisualStyleBackColor = false;
             // 
-            // labelPro
-            // 
-            this.labelPro.AutoSize = true;
-            this.labelPro.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.labelPro.Font = new System.Drawing.Font("Sitka Display", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPro.ForeColor = System.Drawing.Color.Yellow;
-            this.labelPro.Location = new System.Drawing.Point(34, 327);
-            this.labelPro.Name = "labelPro";
-            this.labelPro.Size = new System.Drawing.Size(66, 24);
-            this.labelPro.TabIndex = 42;
-            this.labelPro.Text = "Product";
-            // 
-            // labelCust
-            // 
-            this.labelCust.AutoSize = true;
-            this.labelCust.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.labelCust.Font = new System.Drawing.Font("Sitka Display", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCust.ForeColor = System.Drawing.Color.Yellow;
-            this.labelCust.Location = new System.Drawing.Point(28, 263);
-            this.labelCust.Name = "labelCust";
-            this.labelCust.Size = new System.Drawing.Size(79, 24);
-            this.labelCust.TabIndex = 41;
-            this.labelCust.Text = "Customer";
-            // 
-            // labelEmploy
-            // 
-            this.labelEmploy.AutoSize = true;
-            this.labelEmploy.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.labelEmploy.Font = new System.Drawing.Font("Sitka Display", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelEmploy.ForeColor = System.Drawing.Color.Yellow;
-            this.labelEmploy.Location = new System.Drawing.Point(27, 202);
-            this.labelEmploy.Name = "labelEmploy";
-            this.labelEmploy.Size = new System.Drawing.Size(81, 24);
-            this.labelEmploy.TabIndex = 40;
-            this.labelEmploy.Text = "Employee";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::TugasAkhir_C4.Properties.Resources.clearbtn;
-            this.pictureBox1.Location = new System.Drawing.Point(744, 7);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(41, 37);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 32;
-            this.pictureBox1.TabStop = false;
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.MediumSlateBlue;
@@ -331,18 +272,6 @@ namespace TugasAkhir_C4
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(648, 393);
             this.panel1.TabIndex = 39;
-            // 
-            // labelSupp
-            // 
-            this.labelSupp.AutoSize = true;
-            this.labelSupp.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.labelSupp.Font = new System.Drawing.Font("Sitka Display", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSupp.ForeColor = System.Drawing.Color.Yellow;
-            this.labelSupp.Location = new System.Drawing.Point(32, 390);
-            this.labelSupp.Name = "labelSupp";
-            this.labelSupp.Size = new System.Drawing.Size(71, 24);
-            this.labelSupp.TabIndex = 43;
-            this.labelSupp.Text = "Supplier";
             // 
             // label5
             // 
@@ -380,21 +309,92 @@ namespace TugasAkhir_C4
             this.label3.TabIndex = 35;
             this.label3.Text = "ID";
             // 
+            // labelExit
+            // 
+            this.labelExit.AutoSize = true;
+            this.labelExit.Font = new System.Drawing.Font("Sitka Small", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelExit.ForeColor = System.Drawing.Color.MediumSlateBlue;
+            this.labelExit.Location = new System.Drawing.Point(746, 9);
+            this.labelExit.Name = "labelExit";
+            this.labelExit.Size = new System.Drawing.Size(42, 19);
+            this.labelExit.TabIndex = 44;
+            this.labelExit.Text = "EXIT";
+            // 
+            // buttonS
+            // 
+            this.buttonS.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.buttonS.Font = new System.Drawing.Font("Sitka Display", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonS.ForeColor = System.Drawing.Color.Yellow;
+            this.buttonS.Location = new System.Drawing.Point(9, 406);
+            this.buttonS.Name = "buttonS";
+            this.buttonS.Size = new System.Drawing.Size(122, 36);
+            this.buttonS.TabIndex = 49;
+            this.buttonS.Text = "Supplier";
+            this.buttonS.UseVisualStyleBackColor = false;
+            // 
+            // buttonP
+            // 
+            this.buttonP.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.buttonP.Font = new System.Drawing.Font("Sitka Display", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonP.ForeColor = System.Drawing.Color.Yellow;
+            this.buttonP.Location = new System.Drawing.Point(9, 343);
+            this.buttonP.Name = "buttonP";
+            this.buttonP.Size = new System.Drawing.Size(122, 36);
+            this.buttonP.TabIndex = 48;
+            this.buttonP.Text = "Product";
+            this.buttonP.UseVisualStyleBackColor = false;
+            // 
+            // buttonC
+            // 
+            this.buttonC.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.buttonC.Font = new System.Drawing.Font("Sitka Display", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonC.ForeColor = System.Drawing.Color.Yellow;
+            this.buttonC.Location = new System.Drawing.Point(9, 275);
+            this.buttonC.Name = "buttonC";
+            this.buttonC.Size = new System.Drawing.Size(122, 36);
+            this.buttonC.TabIndex = 47;
+            this.buttonC.Text = "Customer";
+            this.buttonC.UseVisualStyleBackColor = false;
+            // 
+            // buttonE
+            // 
+            this.buttonE.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.buttonE.Font = new System.Drawing.Font("Sitka Display", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonE.ForeColor = System.Drawing.Color.Yellow;
+            this.buttonE.Location = new System.Drawing.Point(9, 209);
+            this.buttonE.Name = "buttonE";
+            this.buttonE.Size = new System.Drawing.Size(122, 36);
+            this.buttonE.TabIndex = 46;
+            this.buttonE.Text = "Employee";
+            this.buttonE.UseVisualStyleBackColor = false;
+            // 
+            // buttonD
+            // 
+            this.buttonD.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.buttonD.Font = new System.Drawing.Font("Sitka Display", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonD.ForeColor = System.Drawing.Color.Yellow;
+            this.buttonD.Location = new System.Drawing.Point(9, 147);
+            this.buttonD.Name = "buttonD";
+            this.buttonD.Size = new System.Drawing.Size(122, 36);
+            this.buttonD.TabIndex = 45;
+            this.buttonD.Text = "Departement";
+            this.buttonD.UseVisualStyleBackColor = false;
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonS);
+            this.Controls.Add(this.buttonP);
+            this.Controls.Add(this.buttonC);
+            this.Controls.Add(this.buttonE);
+            this.Controls.Add(this.buttonD);
+            this.Controls.Add(this.labelExit);
             this.Controls.Add(this.labelNameProd);
-            this.Controls.Add(this.labelDepart);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.labelPro);
-            this.Controls.Add(this.labelCust);
-            this.Controls.Add(this.labelEmploy);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.labelSupp);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -405,7 +405,6 @@ namespace TugasAkhir_C4
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProd)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -430,18 +429,18 @@ namespace TugasAkhir_C4
         private System.Windows.Forms.Button btnClearProd;
         private System.Windows.Forms.Button btnSaveProd;
         private System.Windows.Forms.TextBox textboxSellprice;
-        private System.Windows.Forms.Label labelDepart;
         private System.Windows.Forms.TextBox textboxNameProd;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Button btnAddProd;
-        private System.Windows.Forms.Label labelPro;
-        private System.Windows.Forms.Label labelCust;
-        private System.Windows.Forms.Label labelEmploy;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label labelSupp;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelExit;
+        private System.Windows.Forms.Button buttonS;
+        private System.Windows.Forms.Button buttonP;
+        private System.Windows.Forms.Button buttonC;
+        private System.Windows.Forms.Button buttonE;
+        private System.Windows.Forms.Button buttonD;
     }
 }
