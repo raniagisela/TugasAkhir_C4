@@ -13,6 +13,7 @@ namespace TugasAkhir_C4
 {
     public partial class Form2 : Form
     {
+        DBConnect dBCon = new DBConnect();
         public Form2()
         {
             InitializeComponent();
@@ -28,7 +29,10 @@ namespace TugasAkhir_C4
             try
             {
                 string insertQuery = "INSERT INTO Departement VALUES(" + textboxNameDepart.Text + ",'" + textboxIdDepart.Text + "','" + textboxSumDepart.Text + "','" + textboxAddressDepart.Text + "')";
-                //SqlCommand command = new
+                //SqlCommand command = new SqlCommand(insertQuery, dBCon.GetCon());
+                //dBCon.OpenCon();
+                //command.ExecuteNonQuery();
+                MessageBox.Show("Departement Added Successfully!");
             }
             catch (Exception ex)
             {
