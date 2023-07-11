@@ -131,6 +131,7 @@ namespace TugasAkhir_C4
             this.btnAddDepart.TabIndex = 5;
             this.btnAddDepart.Text = "Add";
             this.btnAddDepart.UseVisualStyleBackColor = false;
+            this.btnAddDepart.Click += new System.EventHandler(this.btnAddDepart_Click);
             // 
             // btnSaveDepart
             // 
