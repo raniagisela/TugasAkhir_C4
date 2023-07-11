@@ -185,5 +185,8 @@
   <ItemGroup>
     <None Include="Resources\clearbtn.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer-icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

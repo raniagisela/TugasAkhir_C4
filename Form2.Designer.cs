@@ -30,20 +30,18 @@ namespace TugasAkhir_C4
         private void InitializeComponent()
         {
             this.labelDepart = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.btnSave = new System.Windows.Forms.Button();
-            this.btnClear = new System.Windows.Forms.Button();
-            this.textboxName = new System.Windows.Forms.TextBox();
-            this.textboxAddress = new System.Windows.Forms.TextBox();
-            this.textboxSum = new System.Windows.Forms.TextBox();
-            this.textboxId = new System.Windows.Forms.TextBox();
+            this.labelNameDepart = new System.Windows.Forms.Label();
+            this.labelIdDepart = new System.Windows.Forms.Label();
+            this.labelSumDepart = new System.Windows.Forms.Label();
+            this.labelAddressDepart = new System.Windows.Forms.Label();
+            this.btnAddDepart = new System.Windows.Forms.Button();
+            this.btnSaveDepart = new System.Windows.Forms.Button();
+            this.btnClearDepart = new System.Windows.Forms.Button();
+            this.textboxNameDepart = new System.Windows.Forms.TextBox();
+            this.textboxAddressDepart = new System.Windows.Forms.TextBox();
+            this.textboxSumDepart = new System.Windows.Forms.TextBox();
+            this.textboxIdDepart = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.titleDepart = new System.Windows.Forms.Label();
             this.labelEmploy = new System.Windows.Forms.Label();
@@ -51,11 +49,13 @@ namespace TugasAkhir_C4
             this.labelPro = new System.Windows.Forms.Label();
             this.labelSupp = new System.Windows.Forms.Label();
             this.dataGridViewDepart = new System.Windows.Forms.DataGridView();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDepart)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // labelDepart
@@ -70,158 +70,138 @@ namespace TugasAkhir_C4
             this.labelDepart.TabIndex = 0;
             this.labelDepart.Text = "Departement";
             // 
-            // label2
+            // labelNameDepart
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.label2.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Yellow;
-            this.label2.Location = new System.Drawing.Point(160, 148);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 16);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Name";
+            this.labelNameDepart.AutoSize = true;
+            this.labelNameDepart.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.labelNameDepart.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNameDepart.ForeColor = System.Drawing.Color.Yellow;
+            this.labelNameDepart.Location = new System.Drawing.Point(160, 148);
+            this.labelNameDepart.Name = "labelNameDepart";
+            this.labelNameDepart.Size = new System.Drawing.Size(46, 16);
+            this.labelNameDepart.TabIndex = 1;
+            this.labelNameDepart.Text = "Name";
             // 
-            // label3
+            // labelIdDepart
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.label3.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Yellow;
-            this.label3.Location = new System.Drawing.Point(160, 183);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(26, 16);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "ID";
+            this.labelIdDepart.AutoSize = true;
+            this.labelIdDepart.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.labelIdDepart.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelIdDepart.ForeColor = System.Drawing.Color.Yellow;
+            this.labelIdDepart.Location = new System.Drawing.Point(160, 183);
+            this.labelIdDepart.Name = "labelIdDepart";
+            this.labelIdDepart.Size = new System.Drawing.Size(26, 16);
+            this.labelIdDepart.TabIndex = 2;
+            this.labelIdDepart.Text = "ID";
             // 
-            // label4
+            // labelSumDepart
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.label4.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Yellow;
-            this.label4.Location = new System.Drawing.Point(160, 216);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(36, 16);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Sum";
+            this.labelSumDepart.AutoSize = true;
+            this.labelSumDepart.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.labelSumDepart.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSumDepart.ForeColor = System.Drawing.Color.Yellow;
+            this.labelSumDepart.Location = new System.Drawing.Point(160, 216);
+            this.labelSumDepart.Name = "labelSumDepart";
+            this.labelSumDepart.Size = new System.Drawing.Size(36, 16);
+            this.labelSumDepart.TabIndex = 3;
+            this.labelSumDepart.Text = "Sum";
             // 
-            // label5
+            // labelAddressDepart
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.label5.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Yellow;
-            this.label5.Location = new System.Drawing.Point(160, 251);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 16);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Address";
+            this.labelAddressDepart.AutoSize = true;
+            this.labelAddressDepart.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.labelAddressDepart.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAddressDepart.ForeColor = System.Drawing.Color.Yellow;
+            this.labelAddressDepart.Location = new System.Drawing.Point(160, 251);
+            this.labelAddressDepart.Name = "labelAddressDepart";
+            this.labelAddressDepart.Size = new System.Drawing.Size(60, 16);
+            this.labelAddressDepart.TabIndex = 4;
+            this.labelAddressDepart.Text = "Address";
             // 
-            // btnAdd
+            // btnAddDepart
             // 
-            this.btnAdd.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.btnAdd.FlatAppearance.BorderSize = 0;
-            this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdd.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.ForeColor = System.Drawing.Color.Yellow;
-            this.btnAdd.Location = new System.Drawing.Point(23, 270);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(51, 37);
-            this.btnAdd.TabIndex = 5;
-            this.btnAdd.Text = "Add";
-            this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAddDepart.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.btnAddDepart.FlatAppearance.BorderSize = 0;
+            this.btnAddDepart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddDepart.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddDepart.ForeColor = System.Drawing.Color.Yellow;
+            this.btnAddDepart.Location = new System.Drawing.Point(23, 264);
+            this.btnAddDepart.Name = "btnAddDepart";
+            this.btnAddDepart.Size = new System.Drawing.Size(51, 37);
+            this.btnAddDepart.TabIndex = 5;
+            this.btnAddDepart.Text = "Add";
+            this.btnAddDepart.UseVisualStyleBackColor = false;
             // 
-            // btnSave
+            // btnSaveDepart
             // 
-            this.btnSave.FlatAppearance.BorderSize = 0;
-            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSave.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.ForeColor = System.Drawing.Color.Yellow;
-            this.btnSave.Location = new System.Drawing.Point(103, 270);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(65, 37);
-            this.btnSave.TabIndex = 6;
-            this.btnSave.Text = "Update";
-            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSaveDepart.FlatAppearance.BorderSize = 0;
+            this.btnSaveDepart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSaveDepart.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveDepart.ForeColor = System.Drawing.Color.Yellow;
+            this.btnSaveDepart.Location = new System.Drawing.Point(102, 264);
+            this.btnSaveDepart.Name = "btnSaveDepart";
+            this.btnSaveDepart.Size = new System.Drawing.Size(75, 37);
+            this.btnSaveDepart.TabIndex = 6;
+            this.btnSaveDepart.Text = "Update";
+            this.btnSaveDepart.UseVisualStyleBackColor = true;
             // 
-            // btnClear
+            // btnClearDepart
             // 
-            this.btnClear.FlatAppearance.BorderSize = 0;
-            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClear.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.ForeColor = System.Drawing.Color.Yellow;
-            this.btnClear.Location = new System.Drawing.Point(198, 269);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(67, 37);
-            this.btnClear.TabIndex = 7;
-            this.btnClear.Text = "Delete";
-            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClearDepart.FlatAppearance.BorderSize = 0;
+            this.btnClearDepart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClearDepart.Font = new System.Drawing.Font("Baskerville Old Face", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClearDepart.ForeColor = System.Drawing.Color.Yellow;
+            this.btnClearDepart.Location = new System.Drawing.Point(198, 264);
+            this.btnClearDepart.Name = "btnClearDepart";
+            this.btnClearDepart.Size = new System.Drawing.Size(67, 37);
+            this.btnClearDepart.TabIndex = 7;
+            this.btnClearDepart.Text = "Delete";
+            this.btnClearDepart.UseVisualStyleBackColor = true;
             // 
-            // textboxName
+            // textboxNameDepart
             // 
-            this.textboxName.Location = new System.Drawing.Point(120, 97);
-            this.textboxName.Name = "textboxName";
-            this.textboxName.Size = new System.Drawing.Size(145, 22);
-            this.textboxName.TabIndex = 8;
+            this.textboxNameDepart.Location = new System.Drawing.Point(120, 97);
+            this.textboxNameDepart.Name = "textboxNameDepart";
+            this.textboxNameDepart.Size = new System.Drawing.Size(145, 22);
+            this.textboxNameDepart.TabIndex = 8;
             // 
-            // textboxAddress
+            // textboxAddressDepart
             // 
-            this.textboxAddress.Location = new System.Drawing.Point(120, 200);
-            this.textboxAddress.Name = "textboxAddress";
-            this.textboxAddress.Size = new System.Drawing.Size(145, 22);
-            this.textboxAddress.TabIndex = 9;
+            this.textboxAddressDepart.Location = new System.Drawing.Point(120, 200);
+            this.textboxAddressDepart.Name = "textboxAddressDepart";
+            this.textboxAddressDepart.Size = new System.Drawing.Size(145, 22);
+            this.textboxAddressDepart.TabIndex = 9;
             // 
-            // textboxSum
+            // textboxSumDepart
             // 
-            this.textboxSum.Location = new System.Drawing.Point(120, 166);
-            this.textboxSum.Name = "textboxSum";
-            this.textboxSum.Size = new System.Drawing.Size(145, 22);
-            this.textboxSum.TabIndex = 10;
+            this.textboxSumDepart.Location = new System.Drawing.Point(120, 166);
+            this.textboxSumDepart.Name = "textboxSumDepart";
+            this.textboxSumDepart.Size = new System.Drawing.Size(145, 22);
+            this.textboxSumDepart.TabIndex = 10;
             // 
-            // textboxId
+            // textboxIdDepart
             // 
-            this.textboxId.Location = new System.Drawing.Point(120, 132);
-            this.textboxId.Name = "textboxId";
-            this.textboxId.Size = new System.Drawing.Size(145, 22);
-            this.textboxId.TabIndex = 11;
+            this.textboxIdDepart.Location = new System.Drawing.Point(120, 132);
+            this.textboxIdDepart.Name = "textboxIdDepart";
+            this.textboxIdDepart.Size = new System.Drawing.Size(145, 22);
+            this.textboxIdDepart.TabIndex = 11;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.panel1.Controls.Add(this.titleDepart);
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.textboxId);
-            this.panel1.Controls.Add(this.textboxSum);
-            this.panel1.Controls.Add(this.btnClear);
-            this.panel1.Controls.Add(this.textboxName);
-            this.panel1.Controls.Add(this.btnSave);
-            this.panel1.Controls.Add(this.textboxAddress);
-            this.panel1.Controls.Add(this.btnAdd);
+            this.panel1.Controls.Add(this.textboxIdDepart);
+            this.panel1.Controls.Add(this.textboxSumDepart);
+            this.panel1.Controls.Add(this.btnClearDepart);
+            this.panel1.Controls.Add(this.textboxNameDepart);
+            this.panel1.Controls.Add(this.btnSaveDepart);
+            this.panel1.Controls.Add(this.textboxAddressDepart);
+            this.panel1.Controls.Add(this.btnAddDepart);
             this.panel1.Location = new System.Drawing.Point(140, 45);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(648, 393);
             this.panel1.TabIndex = 15;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::TugasAkhir_C4.Properties.Resources.clearbtn;
-            this.pictureBox1.Location = new System.Drawing.Point(747, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(41, 37);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::TugasAkhir_C4.Properties.Resources.department_13;
-            this.pictureBox3.Location = new System.Drawing.Point(31, 45);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(79, 66);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 14;
-            this.pictureBox3.TabStop = false;
             // 
             // panel2
             // 
@@ -301,6 +281,26 @@ namespace TugasAkhir_C4
             this.dataGridViewDepart.Size = new System.Drawing.Size(337, 281);
             this.dataGridViewDepart.TabIndex = 0;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::TugasAkhir_C4.Properties.Resources.clearbtn;
+            this.pictureBox1.Location = new System.Drawing.Point(747, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(41, 37);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::TugasAkhir_C4.Properties.Resources.department_13;
+            this.pictureBox3.Location = new System.Drawing.Point(31, 45);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(79, 66);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 14;
+            this.pictureBox3.TabStop = false;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -313,10 +313,10 @@ namespace TugasAkhir_C4
             this.Controls.Add(this.labelEmploy);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.labelAddressDepart);
+            this.Controls.Add(this.labelSumDepart);
+            this.Controls.Add(this.labelIdDepart);
+            this.Controls.Add(this.labelNameDepart);
             this.Controls.Add(this.labelDepart);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -326,10 +326,10 @@ namespace TugasAkhir_C4
             this.Load += new System.EventHandler(this.Form2_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDepart)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -338,17 +338,17 @@ namespace TugasAkhir_C4
         #endregion
 
         private System.Windows.Forms.Label labelDepart;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.Button btnClear;
-        private System.Windows.Forms.TextBox textboxName;
-        private System.Windows.Forms.TextBox textboxAddress;
-        private System.Windows.Forms.TextBox textboxSum;
-        private System.Windows.Forms.TextBox textboxId;
+        private System.Windows.Forms.Label labelNameDepart;
+        private System.Windows.Forms.Label labelIdDepart;
+        private System.Windows.Forms.Label labelSumDepart;
+        private System.Windows.Forms.Label labelAddressDepart;
+        private System.Windows.Forms.Button btnAddDepart;
+        private System.Windows.Forms.Button btnSaveDepart;
+        private System.Windows.Forms.Button btnClearDepart;
+        private System.Windows.Forms.TextBox textboxNameDepart;
+        private System.Windows.Forms.TextBox textboxAddressDepart;
+        private System.Windows.Forms.TextBox textboxSumDepart;
+        private System.Windows.Forms.TextBox textboxIdDepart;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
