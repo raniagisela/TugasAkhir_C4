@@ -145,6 +145,7 @@ namespace TugasAkhir_C4
             this.btnSaveDepart.TabIndex = 6;
             this.btnSaveDepart.Text = "Update";
             this.btnSaveDepart.UseVisualStyleBackColor = true;
+            this.btnSaveDepart.Click += new System.EventHandler(this.btnSaveDepart_Click);
             // 
             // btnClearDepart
             // 
@@ -158,6 +159,7 @@ namespace TugasAkhir_C4
             this.btnClearDepart.TabIndex = 7;
             this.btnClearDepart.Text = "Delete";
             this.btnClearDepart.UseVisualStyleBackColor = true;
+            this.btnClearDepart.Click += new System.EventHandler(this.btnClearDepart_Click);
             // 
             // textboxNameDepart
             // 
@@ -281,6 +283,7 @@ namespace TugasAkhir_C4
             this.dataGridViewDepart.RowTemplate.Height = 24;
             this.dataGridViewDepart.Size = new System.Drawing.Size(337, 281);
             this.dataGridViewDepart.TabIndex = 0;
+            this.dataGridViewDepart.Click += new System.EventHandler(this.dataGridViewDepart_Click);
             // 
             // pictureBox1
             // 
