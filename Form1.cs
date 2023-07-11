@@ -21,5 +21,17 @@ namespace TugasAkhir_C4
         {
 
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            panel2.Width += 3;
+            if(panel2.Width >= 700)
+            {
+                timer1.Stop();
+                Form2 f2 = new Form2();
+                f2.Show();
+                this.Hide();
+            }
+        }
     }
 }
