@@ -164,5 +164,20 @@
   <ItemGroup>
     <None Include="Resources\supplier-management.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supermarket-shelves-clipart-13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41857185bc308128d2f896c872a6b00a1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
